@@ -12,9 +12,25 @@ namespace proyecto_Juego_Mario
 {
     public partial class frmJuegoM : Form
     {
+        int velocidaad;
+        MarioPlayer1 Mario;
+        MarioPlayer1 Bowser;
         public frmJuegoM()
         {
             InitializeComponent();
+            velocidaad = 10;
+        }
+
+        private void frmJuegoM_Load(object sender, EventArgs e)
+        {
+            Mario = new MarioPlayer1();
+            pctPlayer.Location = Mario.Pocition;
+            pctPlayer.Size = Mario.Tamanio;
+        }
+
+        private void frmJuegoM_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Mario.Mover(e.KeyChar);
         }
     }
 }

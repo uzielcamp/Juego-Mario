@@ -126,7 +126,7 @@ namespace proyecto_Juego_Mario
             // pctPlayer
             // 
             this.pctPlayer.Image = global::proyecto_Juego_Mario.Properties.Resources.Mario;
-            this.pctPlayer.Location = new System.Drawing.Point(128, 12);
+            this.pctPlayer.Location = new System.Drawing.Point(135, 3);
             this.pctPlayer.Name = "pctPlayer";
             this.pctPlayer.Size = new System.Drawing.Size(96, 80);
             this.pctPlayer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -248,6 +248,8 @@ namespace proyecto_Juego_Mario
             this.Controls.Add(this.pctPlayer);
             this.Name = "frmJuegoM";
             this.Text = "Juego ";
+            this.Load += new System.EventHandler(this.frmJuegoM_Load);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.frmJuegoM_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.pctEspecial)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctBloque3)).EndInit();
