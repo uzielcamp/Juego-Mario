@@ -14,7 +14,7 @@ namespace proyecto_Juego_Mario
     {
         int velocidaad;
         MarioPlayer1 Mario;
-        MarioPlayer1 Bowser;
+
         public frmJuegoM()
         {
             InitializeComponent();
@@ -31,6 +31,16 @@ namespace proyecto_Juego_Mario
         private void frmJuegoM_KeyPress(object sender, KeyPressEventArgs e)
         {
             Mario.Mover(e.KeyChar);
+        }
+
+        private void pctPlayer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pctVillano_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

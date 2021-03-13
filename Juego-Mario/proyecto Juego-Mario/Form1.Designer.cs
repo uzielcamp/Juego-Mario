@@ -29,6 +29,15 @@ namespace proyecto_Juego_Mario
         /// </summary>
         private void InitializeComponent()
         {
+            this.pctBloqueOro2 = new System.Windows.Forms.PictureBox();
+            this.BloqueOro3 = new System.Windows.Forms.PictureBox();
+            this.pctBloque7 = new System.Windows.Forms.PictureBox();
+            this.pctBloqueOro6 = new System.Windows.Forms.PictureBox();
+            this.pctBloqueOro5 = new System.Windows.Forms.PictureBox();
+            this.pctBloqueOro4 = new System.Windows.Forms.PictureBox();
+            this.pctBloque6 = new System.Windows.Forms.PictureBox();
+            this.pctBloque5 = new System.Windows.Forms.PictureBox();
+            this.pctBloque4 = new System.Windows.Forms.PictureBox();
             this.pctEspecial = new System.Windows.Forms.PictureBox();
             this.pctBloqueOro = new System.Windows.Forms.PictureBox();
             this.pctBloque3 = new System.Windows.Forms.PictureBox();
@@ -36,15 +45,15 @@ namespace proyecto_Juego_Mario
             this.pctVillano = new System.Windows.Forms.PictureBox();
             this.pctBloque1 = new System.Windows.Forms.PictureBox();
             this.pctPlayer = new System.Windows.Forms.PictureBox();
-            this.pctBloque4 = new System.Windows.Forms.PictureBox();
-            this.pctBloque5 = new System.Windows.Forms.PictureBox();
-            this.pctBloque6 = new System.Windows.Forms.PictureBox();
-            this.pctBloqueOro4 = new System.Windows.Forms.PictureBox();
-            this.pctBloqueOro5 = new System.Windows.Forms.PictureBox();
-            this.pctBloqueOro6 = new System.Windows.Forms.PictureBox();
-            this.pctBloque7 = new System.Windows.Forms.PictureBox();
-            this.BloqueOro3 = new System.Windows.Forms.PictureBox();
-            this.pctBloqueOro2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BloqueOro3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctBloque7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctBloque6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctBloque5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctBloque4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctEspecial)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctBloque3)).BeginInit();
@@ -52,16 +61,97 @@ namespace proyecto_Juego_Mario
             ((System.ComponentModel.ISupportInitialize)(this.pctVillano)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctBloque1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctPlayer)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBloque4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBloque5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBloque6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBloque7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BloqueOro3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro2)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pctBloqueOro2
+            // 
+            this.pctBloqueOro2.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_oro;
+            this.pctBloqueOro2.Location = new System.Drawing.Point(323, 284);
+            this.pctBloqueOro2.Name = "pctBloqueOro2";
+            this.pctBloqueOro2.Size = new System.Drawing.Size(86, 71);
+            this.pctBloqueOro2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctBloqueOro2.TabIndex = 15;
+            this.pctBloqueOro2.TabStop = false;
+            // 
+            // BloqueOro3
+            // 
+            this.BloqueOro3.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_oro;
+            this.BloqueOro3.Location = new System.Drawing.Point(0, 265);
+            this.BloqueOro3.Name = "BloqueOro3";
+            this.BloqueOro3.Size = new System.Drawing.Size(86, 71);
+            this.BloqueOro3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.BloqueOro3.TabIndex = 14;
+            this.BloqueOro3.TabStop = false;
+            // 
+            // pctBloque7
+            // 
+            this.pctBloque7.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_piedra;
+            this.pctBloque7.Location = new System.Drawing.Point(0, 212);
+            this.pctBloque7.Name = "pctBloque7";
+            this.pctBloque7.Size = new System.Drawing.Size(86, 53);
+            this.pctBloque7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctBloque7.TabIndex = 13;
+            this.pctBloque7.TabStop = false;
+            // 
+            // pctBloqueOro6
+            // 
+            this.pctBloqueOro6.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_oro;
+            this.pctBloqueOro6.Location = new System.Drawing.Point(0, 474);
+            this.pctBloqueOro6.Name = "pctBloqueOro6";
+            this.pctBloqueOro6.Size = new System.Drawing.Size(86, 71);
+            this.pctBloqueOro6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctBloqueOro6.TabIndex = 12;
+            this.pctBloqueOro6.TabStop = false;
+            // 
+            // pctBloqueOro5
+            // 
+            this.pctBloqueOro5.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_oro;
+            this.pctBloqueOro5.Location = new System.Drawing.Point(0, 405);
+            this.pctBloqueOro5.Name = "pctBloqueOro5";
+            this.pctBloqueOro5.Size = new System.Drawing.Size(86, 71);
+            this.pctBloqueOro5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctBloqueOro5.TabIndex = 11;
+            this.pctBloqueOro5.TabStop = false;
+            // 
+            // pctBloqueOro4
+            // 
+            this.pctBloqueOro4.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_oro;
+            this.pctBloqueOro4.Location = new System.Drawing.Point(0, 334);
+            this.pctBloqueOro4.Name = "pctBloqueOro4";
+            this.pctBloqueOro4.Size = new System.Drawing.Size(86, 71);
+            this.pctBloqueOro4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctBloqueOro4.TabIndex = 10;
+            this.pctBloqueOro4.TabStop = false;
+            // 
+            // pctBloque6
+            // 
+            this.pctBloque6.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_piedra;
+            this.pctBloque6.Location = new System.Drawing.Point(0, 141);
+            this.pctBloque6.Name = "pctBloque6";
+            this.pctBloque6.Size = new System.Drawing.Size(86, 71);
+            this.pctBloque6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctBloque6.TabIndex = 9;
+            this.pctBloque6.TabStop = false;
+            // 
+            // pctBloque5
+            // 
+            this.pctBloque5.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_piedra;
+            this.pctBloque5.Location = new System.Drawing.Point(0, 71);
+            this.pctBloque5.Name = "pctBloque5";
+            this.pctBloque5.Size = new System.Drawing.Size(86, 71);
+            this.pctBloque5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctBloque5.TabIndex = 8;
+            this.pctBloque5.TabStop = false;
+            // 
+            // pctBloque4
+            // 
+            this.pctBloque4.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_piedra;
+            this.pctBloque4.Location = new System.Drawing.Point(0, 0);
+            this.pctBloque4.Name = "pctBloque4";
+            this.pctBloque4.Size = new System.Drawing.Size(86, 71);
+            this.pctBloque4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctBloque4.TabIndex = 7;
+            this.pctBloque4.TabStop = false;
             // 
             // pctEspecial
             // 
@@ -112,6 +202,7 @@ namespace proyecto_Juego_Mario
             this.pctVillano.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctVillano.TabIndex = 2;
             this.pctVillano.TabStop = false;
+            this.pctVillano.Click += new System.EventHandler(this.pctVillano_Click);
             // 
             // pctBloque1
             // 
@@ -132,96 +223,7 @@ namespace proyecto_Juego_Mario
             this.pctPlayer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctPlayer.TabIndex = 0;
             this.pctPlayer.TabStop = false;
-            // 
-            // pctBloque4
-            // 
-            this.pctBloque4.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_piedra;
-            this.pctBloque4.Location = new System.Drawing.Point(0, 0);
-            this.pctBloque4.Name = "pctBloque4";
-            this.pctBloque4.Size = new System.Drawing.Size(86, 71);
-            this.pctBloque4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctBloque4.TabIndex = 7;
-            this.pctBloque4.TabStop = false;
-            // 
-            // pctBloque5
-            // 
-            this.pctBloque5.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_piedra;
-            this.pctBloque5.Location = new System.Drawing.Point(0, 71);
-            this.pctBloque5.Name = "pctBloque5";
-            this.pctBloque5.Size = new System.Drawing.Size(86, 71);
-            this.pctBloque5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctBloque5.TabIndex = 8;
-            this.pctBloque5.TabStop = false;
-            // 
-            // pctBloque6
-            // 
-            this.pctBloque6.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_piedra;
-            this.pctBloque6.Location = new System.Drawing.Point(0, 141);
-            this.pctBloque6.Name = "pctBloque6";
-            this.pctBloque6.Size = new System.Drawing.Size(86, 71);
-            this.pctBloque6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctBloque6.TabIndex = 9;
-            this.pctBloque6.TabStop = false;
-            // 
-            // pctBloqueOro4
-            // 
-            this.pctBloqueOro4.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_oro;
-            this.pctBloqueOro4.Location = new System.Drawing.Point(0, 334);
-            this.pctBloqueOro4.Name = "pctBloqueOro4";
-            this.pctBloqueOro4.Size = new System.Drawing.Size(86, 71);
-            this.pctBloqueOro4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctBloqueOro4.TabIndex = 10;
-            this.pctBloqueOro4.TabStop = false;
-            // 
-            // pctBloqueOro5
-            // 
-            this.pctBloqueOro5.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_oro;
-            this.pctBloqueOro5.Location = new System.Drawing.Point(0, 405);
-            this.pctBloqueOro5.Name = "pctBloqueOro5";
-            this.pctBloqueOro5.Size = new System.Drawing.Size(86, 71);
-            this.pctBloqueOro5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctBloqueOro5.TabIndex = 11;
-            this.pctBloqueOro5.TabStop = false;
-            // 
-            // pctBloqueOro6
-            // 
-            this.pctBloqueOro6.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_oro;
-            this.pctBloqueOro6.Location = new System.Drawing.Point(0, 474);
-            this.pctBloqueOro6.Name = "pctBloqueOro6";
-            this.pctBloqueOro6.Size = new System.Drawing.Size(86, 71);
-            this.pctBloqueOro6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctBloqueOro6.TabIndex = 12;
-            this.pctBloqueOro6.TabStop = false;
-            // 
-            // pctBloque7
-            // 
-            this.pctBloque7.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_piedra;
-            this.pctBloque7.Location = new System.Drawing.Point(0, 212);
-            this.pctBloque7.Name = "pctBloque7";
-            this.pctBloque7.Size = new System.Drawing.Size(86, 53);
-            this.pctBloque7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctBloque7.TabIndex = 13;
-            this.pctBloque7.TabStop = false;
-            // 
-            // BloqueOro3
-            // 
-            this.BloqueOro3.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_oro;
-            this.BloqueOro3.Location = new System.Drawing.Point(0, 265);
-            this.BloqueOro3.Name = "BloqueOro3";
-            this.BloqueOro3.Size = new System.Drawing.Size(86, 71);
-            this.BloqueOro3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.BloqueOro3.TabIndex = 14;
-            this.BloqueOro3.TabStop = false;
-            // 
-            // pctBloqueOro2
-            // 
-            this.pctBloqueOro2.Image = global::proyecto_Juego_Mario.Properties.Resources.Bloque_oro;
-            this.pctBloqueOro2.Location = new System.Drawing.Point(323, 284);
-            this.pctBloqueOro2.Name = "pctBloqueOro2";
-            this.pctBloqueOro2.Size = new System.Drawing.Size(86, 71);
-            this.pctBloqueOro2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctBloqueOro2.TabIndex = 15;
-            this.pctBloqueOro2.TabStop = false;
+            this.pctPlayer.Click += new System.EventHandler(this.pctPlayer_Click);
             // 
             // frmJuegoM
             // 
@@ -250,6 +252,15 @@ namespace proyecto_Juego_Mario
             this.Text = "Juego ";
             this.Load += new System.EventHandler(this.frmJuegoM_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.frmJuegoM_KeyPress);
+            ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BloqueOro3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctBloque7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctBloque6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctBloque5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctBloque4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctEspecial)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctBloque3)).EndInit();
@@ -257,15 +268,6 @@ namespace proyecto_Juego_Mario
             ((System.ComponentModel.ISupportInitialize)(this.pctVillano)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctBloque1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctPlayer)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBloque4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBloque5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBloque6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBloque7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BloqueOro3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro2)).EndInit();
             this.ResumeLayout(false);
 
         }

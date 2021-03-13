@@ -54,10 +54,11 @@ namespace proyecto_Juego_Mario
             this.Vida = 100;
             this.Velocidad = 10;
             this.Pocition = new Point(135, 3);
-            this.Tamanio = new Size(96, 80);
-            this.fileName = @"C:\LVAPV\Juego-Mario.png";
+            this.Tamanio = new Size(14,35);
+            this.fileName = @"C://Users//Miguel Herrera Sanch//Desktop//Mario.png";
+            this.Sprite = Bitmap.FromFile(this.FileName);
         }
-        //constructor sobrecargado
+        
         public MarioPlayer1(string nombre, int vida, int velocidad, Point posicion, Size tamanio)
         {
             this.nombre = nombre;
