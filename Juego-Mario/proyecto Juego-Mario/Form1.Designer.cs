@@ -45,6 +45,7 @@ namespace proyecto_Juego_Mario
             this.pctVillano = new System.Windows.Forms.PictureBox();
             this.pctBloque1 = new System.Windows.Forms.PictureBox();
             this.pctPlayer = new System.Windows.Forms.PictureBox();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BloqueOro3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctBloque7)).BeginInit();
@@ -219,11 +220,18 @@ namespace proyecto_Juego_Mario
             this.pctPlayer.Image = global::proyecto_Juego_Mario.Properties.Resources.Mario;
             this.pctPlayer.Location = new System.Drawing.Point(135, 3);
             this.pctPlayer.Name = "pctPlayer";
-            this.pctPlayer.Size = new System.Drawing.Size(96, 80);
+            this.pctPlayer.Size = new System.Drawing.Size(77, 68);
             this.pctPlayer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctPlayer.TabIndex = 0;
             this.pctPlayer.TabStop = false;
             this.pctPlayer.Click += new System.EventHandler(this.pctPlayer_Click);
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(666, 511);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(109, 23);
+            this.progressBar1.TabIndex = 16;
             // 
             // frmJuegoM
             // 
@@ -232,6 +240,7 @@ namespace proyecto_Juego_Mario
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(800, 546);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.pctBloqueOro2);
             this.Controls.Add(this.BloqueOro3);
             this.Controls.Add(this.pctBloque7);
@@ -290,6 +299,7 @@ namespace proyecto_Juego_Mario
         private System.Windows.Forms.PictureBox pctBloque7;
         private System.Windows.Forms.PictureBox BloqueOro3;
         private System.Windows.Forms.PictureBox pctBloqueOro2;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 

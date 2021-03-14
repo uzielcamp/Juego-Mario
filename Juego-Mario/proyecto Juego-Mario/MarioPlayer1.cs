@@ -11,7 +11,7 @@ namespace proyecto_Juego_Mario
         private int vida;
         private string nombre;
         private string fileName;
-        private Image Sprite;
+        private Image sprite;
         #endregion
         #region Propiedades
         public int Vida
@@ -43,6 +43,11 @@ namespace proyecto_Juego_Mario
         {
             get { return this.pocition; }
             set { this.pocition = value; }
+        }
+        public Image Sprite
+        {
+            get { return this.sprite; }
+            set { this.sprite = value; }
         }
         #endregion
         #region metodos

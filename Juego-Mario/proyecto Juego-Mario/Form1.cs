@@ -12,13 +12,13 @@ namespace proyecto_Juego_Mario
 {
     public partial class frmJuegoM : Form
     {
-        int velocidaad;
+        int velocidad;
         MarioPlayer1 Mario;
 
         public frmJuegoM()
         {
             InitializeComponent();
-            velocidaad = 10;
+            velocidad = 10;
         }
 
         private void frmJuegoM_Load(object sender, EventArgs e)
@@ -26,11 +26,17 @@ namespace proyecto_Juego_Mario
             Mario = new MarioPlayer1();
             pctPlayer.Location = Mario.Pocition;
             pctPlayer.Size = Mario.Tamanio;
+            //pctPlayer.Image = Mario.Sprite;
         }
 
         private void frmJuegoM_KeyPress(object sender, KeyPressEventArgs e)
         {
             Mario.Mover(e.KeyChar);
+            pctPlayer.Location = Mario.Pocition;
+            if(pctPlayer.Bounds.IntersectsWith(pctVillano.Bounds))
+            {
+                MessageBox.Show("Muerete prro");            
+            }
         }
 
         private void pctPlayer_Click(object sender, EventArgs e)
@@ -42,5 +48,6 @@ namespace proyecto_Juego_Mario
         {
 
         }
+       
     }
 }
