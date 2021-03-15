@@ -37,6 +37,54 @@ namespace proyecto_Juego_Mario
             {
                 MessageBox.Show("Muerete prro");            
             }
+            if (pctPlayer.Bounds.IntersectsWith(pctBloque1.Bounds)) 
+            {
+                MessageBox.Show("Muerete prro");
+            }
+            if(pctPlayer.Bounds.IntersectsWith(pctBloque2.Bounds))
+            {
+                MessageBox.Show("Muerete prro");
+            }
+        if(pctPlayer.Bounds.IntersectsWith(pctBloque3.Bounds))
+            {
+                MessageBox.Show("Muerete prro");
+            }
+        if(pctPlayer.Bounds.IntersectsWith(pctBloque4.Bounds))
+            {
+                MessageBox.Show("Muerete prro");
+            }
+        if(pctPlayer.Bounds.IntersectsWith(pctBloque5.Bounds))
+            {
+                MessageBox.Show("Muerete prro");
+            }
+        if(pctPlayer.Bounds.IntersectsWith(pctBloque6.Bounds))
+            {
+                MessageBox.Show("Muerete prro");
+            }
+        if(pctPlayer.Bounds.IntersectsWith(pctBloque7.Bounds))
+            {
+                MessageBox.Show("Muerete prro");
+            }
+        if(pctPlayer.Bounds.IntersectsWith(pctBloqueOro.Bounds))
+            {
+                MessageBox.Show("Muerete prro");
+            }
+        if(pctPlayer.Bounds.IntersectsWith(pctBloqueOro2.Bounds))
+            {
+                MessageBox.Show("Muerete prro");
+            }
+        if(pctPlayer.Bounds.IntersectsWith(pctBloqueOro4.Bounds))
+            {
+                MessageBox.Show("Muerete prro");
+            }
+        if(pctPlayer.Bounds.IntersectsWith(pctBloqueOro5.Bounds))
+            {
+                MessageBox.Show("Muerete perro");
+            }
+        if(pctPlayer.Bounds.IntersectsWith(pctBloqueOro6.Bounds))
+            {
+                MessageBox.Show("Muerete prro");
+            }
         }
 
         private void pctPlayer_Click(object sender, EventArgs e)
