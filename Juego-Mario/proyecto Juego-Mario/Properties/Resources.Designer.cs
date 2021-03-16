@@ -63,6 +63,26 @@ namespace proyecto_Juego_Mario.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1 {
+            get {
+                object obj = ResourceManager.GetObject("1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2 {
+            get {
+                object obj = ResourceManager.GetObject("2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bloque_1 {
             get {
                 object obj = ResourceManager.GetObject("bloque 1", resourceCulture);
@@ -147,6 +167,16 @@ namespace proyecto_Juego_Mario.Properties {
         internal static System.Drawing.Bitmap minifigura_lego_stormtrooper_star_wars {
             get {
                 object obj = ResourceManager.GetObject("minifigura-lego-stormtrooper-star-wars", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_clipart_kylo_ren_lego_star_wars_lego_minifigure_lego_storm_trooper {
+            get {
+                object obj = ResourceManager.GetObject("png-clipart-kylo-ren-lego-star-wars-lego-minifigure-lego-storm-trooper", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

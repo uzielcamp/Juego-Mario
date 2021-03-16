@@ -30,6 +30,8 @@ namespace proyecto_Juego_Mario
         private void InitializeComponent()
         {
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.pctEnemigoestatico2 = new System.Windows.Forms.PictureBox();
+            this.pctEnemigoestatico = new System.Windows.Forms.PictureBox();
             this.pctBloqueOro2 = new System.Windows.Forms.PictureBox();
             this.BloqueOro3 = new System.Windows.Forms.PictureBox();
             this.pctBloque7 = new System.Windows.Forms.PictureBox();
@@ -46,6 +48,8 @@ namespace proyecto_Juego_Mario
             this.pctVillano = new System.Windows.Forms.PictureBox();
             this.pctBloque1 = new System.Windows.Forms.PictureBox();
             this.pctPlayer = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pctEnemigoestatico2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctEnemigoestatico)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BloqueOro3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctBloque7)).BeginInit();
@@ -70,6 +74,27 @@ namespace proyecto_Juego_Mario
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(109, 23);
             this.progressBar1.TabIndex = 16;
+            // 
+            // pctEnemigoestatico2
+            // 
+            this.pctEnemigoestatico2.Image = global::proyecto_Juego_Mario.Properties.Resources._2;
+            this.pctEnemigoestatico2.Location = new System.Drawing.Point(565, 446);
+            this.pctEnemigoestatico2.Name = "pctEnemigoestatico2";
+            this.pctEnemigoestatico2.Size = new System.Drawing.Size(85, 99);
+            this.pctEnemigoestatico2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctEnemigoestatico2.TabIndex = 18;
+            this.pctEnemigoestatico2.TabStop = false;
+            // 
+            // pctEnemigoestatico
+            // 
+            this.pctEnemigoestatico.Image = global::proyecto_Juego_Mario.Properties.Resources._1;
+            this.pctEnemigoestatico.Location = new System.Drawing.Point(622, 311);
+            this.pctEnemigoestatico.Name = "pctEnemigoestatico";
+            this.pctEnemigoestatico.Size = new System.Drawing.Size(96, 115);
+            this.pctEnemigoestatico.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctEnemigoestatico.TabIndex = 17;
+            this.pctEnemigoestatico.TabStop = false;
+            this.pctEnemigoestatico.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pctBloqueOro2
             // 
@@ -238,6 +263,8 @@ namespace proyecto_Juego_Mario
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(800, 546);
+            this.Controls.Add(this.pctEnemigoestatico2);
+            this.Controls.Add(this.pctEnemigoestatico);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.pctBloqueOro2);
             this.Controls.Add(this.BloqueOro3);
@@ -259,6 +286,8 @@ namespace proyecto_Juego_Mario
             this.Text = "Juego ";
             this.Load += new System.EventHandler(this.frmJuegoM_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.frmJuegoM_KeyPress);
+            ((System.ComponentModel.ISupportInitialize)(this.pctEnemigoestatico2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctEnemigoestatico)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BloqueOro3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctBloque7)).EndInit();
@@ -298,6 +327,8 @@ namespace proyecto_Juego_Mario
         private System.Windows.Forms.PictureBox BloqueOro3;
         private System.Windows.Forms.PictureBox pctBloqueOro2;
         private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.PictureBox pctEnemigoestatico;
+        private System.Windows.Forms.PictureBox pctEnemigoestatico2;
     }
 }
 

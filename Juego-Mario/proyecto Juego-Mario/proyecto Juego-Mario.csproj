@@ -109,5 +109,14 @@
   <ItemGroup>
     <None Include="Resources\gratis-png-lego-star-wars-la-fuerza-despierta-stormtrooper-lego-minifigure-stormtrooper.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-kylo-ren-lego-star-wars-lego-minifigure-lego-storm-trooper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -89,10 +89,20 @@ namespace proyecto_Juego_Mario
               {
                 MessageBox.Show("+50");
               }
-              //if(pctPlayer.Bounds.IntersectsWith(pctEnemigoestatico.Bounds))
+              if(pctPlayer.Bounds.IntersectsWith(pctEnemigoestatico.Bounds))
               {
-                //MessageBox.Show("PEW,PEW,PEW");
+                MessageBox.Show("PEW,PEW,PEW");
               }
+              if(pctPlayer.Bounds.IntersectsWith(pctEnemigoestatico2.Bounds))
+              {
+                MessageBox.Show("Te comio");
+              }
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
