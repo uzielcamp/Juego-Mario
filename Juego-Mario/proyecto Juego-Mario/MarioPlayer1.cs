@@ -59,8 +59,8 @@ namespace proyecto_Juego_Mario
             this.Vida = 100;
             this.Velocidad = 10;
             this.Pocition = new Point(135, 3);
-            this.Tamanio = new Size(14,35);
-            this.fileName = @"C://LVAPV08//Mario.png";
+            this.Tamanio = new Size(100,50);
+            this.fileName = @"C://LVAPV08//Mario Bros.png";
             this.Sprite = Bitmap.FromFile(this.FileName);
         }
         
@@ -110,6 +110,23 @@ namespace proyecto_Juego_Mario
             {
                 this.Pocition = new Point(this.Pocition.X, this.Pocition.Y + velocidad);
             }
+
+        }
+        public Image GetFrame (int index)
+        {
+            if(!(index >=0 && index < 17))
+            {
+                index = 0;
+            }
+            Image frame = new Bitmap(tamanio.Width, tamanio.Height);
+            using(Graphics g=Graphics.FromImage(frame))
+            {
+                g.DrawImage(Sprite,
+                    new Rectangle(0, 0, tamanio.Width, tamanio.Height),
+                    new Rectangle(index*tamanio.Width,0,tamanio.Width,tamanio.Height),
+                    GraphicsUnit.Pixel);
+            }
+            return frame;
         }
         #endregion
         #endregion

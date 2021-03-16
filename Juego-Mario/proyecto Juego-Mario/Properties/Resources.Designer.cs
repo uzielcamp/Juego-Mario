@@ -73,6 +73,16 @@ namespace proyecto_Juego_Mario.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1ceed098558380f5c4739bb878bd7bce {
+            get {
+                object obj = ResourceManager.GetObject("1ceed098558380f5c4739bb878bd7bce", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _2 {
             get {
                 object obj = ResourceManager.GetObject("2", resourceCulture);
@@ -133,6 +143,16 @@ namespace proyecto_Juego_Mario.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap castillo_de_mario {
+            get {
+                object obj = ResourceManager.GetObject("castillo de mario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gratis_png_lego_star_wars_la_fuerza_despierta_stormtrooper_lego_minifigure_stormtrooper {
             get {
                 object obj = ResourceManager.GetObject("gratis-png-lego-star-wars-la-fuerza-despierta-stormtrooper-lego-minifigure-stormt" +
@@ -157,6 +177,26 @@ namespace proyecto_Juego_Mario.Properties {
         internal static System.Drawing.Bitmap Mario {
             get {
                 object obj = ResourceManager.GetObject("Mario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Mario_2_0 {
+            get {
+                object obj = ResourceManager.GetObject("Mario 2.0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Mario_Bros {
+            get {
+                object obj = ResourceManager.GetObject("Mario Bros", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

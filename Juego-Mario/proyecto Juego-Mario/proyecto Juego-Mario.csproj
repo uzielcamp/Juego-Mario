@@ -118,5 +118,17 @@
   <ItemGroup>
     <None Include="Resources\2.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario 2.0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1ceed098558380f5c4739bb878bd7bce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\castillo de mario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Bros.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

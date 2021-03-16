@@ -14,6 +14,7 @@ namespace proyecto_Juego_Mario
     {
         int velocidad;
         MarioPlayer1 Mario;
+        Browser Browser;
 
         public frmJuegoM()
         {
@@ -26,7 +27,11 @@ namespace proyecto_Juego_Mario
             Mario = new MarioPlayer1();
             pctPlayer.Location = Mario.Pocition;
             pctPlayer.Size = Mario.Tamanio;
-            //pctPlayer.Image = Mario.Sprite;
+            pctPlayer.Image = Mario.Sprite;
+
+            Browser = new Browser();
+            pctVillano.Location = Browser.Pocition;
+            pctVillano.Size = Browser.Tamanio;
         }
 
         private void frmJuegoM_KeyPress(object sender, KeyPressEventArgs e)
@@ -97,8 +102,16 @@ namespace proyecto_Juego_Mario
               {
                 MessageBox.Show("Te comio");
               }
+              if (pctPlayer.Bounds.IntersectsWith(pctCastillodemario.Bounds))
+              {
+                MessageBox.Show("Felicidades has salvado a la princesa");
+              }
+
+            Browser.Mover(e.KeyChar);
+            pctVillano.Location = Browser.Pocition;
 
         }
+
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
