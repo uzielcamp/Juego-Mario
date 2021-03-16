@@ -29,6 +29,7 @@ namespace proyecto_Juego_Mario
         /// </summary>
         private void InitializeComponent()
         {
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.pctBloqueOro2 = new System.Windows.Forms.PictureBox();
             this.BloqueOro3 = new System.Windows.Forms.PictureBox();
             this.pctBloque7 = new System.Windows.Forms.PictureBox();
@@ -45,7 +46,6 @@ namespace proyecto_Juego_Mario
             this.pctVillano = new System.Windows.Forms.PictureBox();
             this.pctBloque1 = new System.Windows.Forms.PictureBox();
             this.pctPlayer = new System.Windows.Forms.PictureBox();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.pctBloqueOro2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BloqueOro3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctBloque7)).BeginInit();
@@ -63,6 +63,13 @@ namespace proyecto_Juego_Mario
             ((System.ComponentModel.ISupportInitialize)(this.pctBloque1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctPlayer)).BeginInit();
             this.SuspendLayout();
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(666, 511);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(109, 23);
+            this.progressBar1.TabIndex = 16;
             // 
             // pctBloqueOro2
             // 
@@ -203,7 +210,6 @@ namespace proyecto_Juego_Mario
             this.pctVillano.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctVillano.TabIndex = 2;
             this.pctVillano.TabStop = false;
-            this.pctVillano.Click += new System.EventHandler(this.pctVillano_Click);
             // 
             // pctBloque1
             // 
@@ -218,20 +224,12 @@ namespace proyecto_Juego_Mario
             // pctPlayer
             // 
             this.pctPlayer.Image = global::proyecto_Juego_Mario.Properties.Resources.Mario;
-            this.pctPlayer.Location = new System.Drawing.Point(135, 3);
+            this.pctPlayer.Location = new System.Drawing.Point(161, 3);
             this.pctPlayer.Name = "pctPlayer";
             this.pctPlayer.Size = new System.Drawing.Size(77, 68);
             this.pctPlayer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctPlayer.TabIndex = 0;
             this.pctPlayer.TabStop = false;
-            this.pctPlayer.Click += new System.EventHandler(this.pctPlayer_Click);
-            // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(666, 511);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(109, 23);
-            this.progressBar1.TabIndex = 16;
             // 
             // frmJuegoM
             // 

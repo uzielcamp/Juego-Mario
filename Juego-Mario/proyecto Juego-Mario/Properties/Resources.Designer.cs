@@ -113,6 +113,17 @@ namespace proyecto_Juego_Mario.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gratis_png_lego_star_wars_la_fuerza_despierta_stormtrooper_lego_minifigure_stormtrooper {
+            get {
+                object obj = ResourceManager.GetObject("gratis-png-lego-star-wars-la-fuerza-despierta-stormtrooper-lego-minifigure-stormt" +
+                        "rooper", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Imagen1 {
             get {
                 object obj = ResourceManager.GetObject("Imagen1", resourceCulture);
@@ -126,6 +137,16 @@ namespace proyecto_Juego_Mario.Properties {
         internal static System.Drawing.Bitmap Mario {
             get {
                 object obj = ResourceManager.GetObject("Mario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap minifigura_lego_stormtrooper_star_wars {
+            get {
+                object obj = ResourceManager.GetObject("minifigura-lego-stormtrooper-star-wars", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

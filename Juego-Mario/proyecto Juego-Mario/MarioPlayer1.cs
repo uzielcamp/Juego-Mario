@@ -60,7 +60,7 @@ namespace proyecto_Juego_Mario
             this.Velocidad = 10;
             this.Pocition = new Point(135, 3);
             this.Tamanio = new Size(14,35);
-            this.fileName = @"C://Users//Miguel Herrera Sanch//Desktop//Mario.png";
+            this.fileName = @"C://LVAPV08//Mario.png";
             this.Sprite = Bitmap.FromFile(this.FileName);
         }
         
@@ -91,18 +91,22 @@ namespace proyecto_Juego_Mario
         public void Mover (char tecla)
         {
             if(tecla == 'a' || tecla == 'A')
+            if(Pocition.X > 0)
             {
                 this.Pocition = new Point(this.Pocition.X - velocidad, this.Pocition.Y);
             }
             if(tecla == 'd' || tecla == 'D')
+            if(Pocition.X < 723)
             {
                 this.Pocition = new Point(this.Pocition.X + velocidad, this.Pocition.Y);
             }
             if(tecla =='w' || tecla == 'W')
+            if (Pocition.Y > 0)
             {
                 this.Pocition = new Point(this.Pocition.X, this.Pocition.Y - velocidad);
             }
             if (tecla == 's' || tecla== 'S')
+            if (Pocition.Y < 477)
             {
                 this.Pocition = new Point(this.Pocition.X, this.Pocition.Y + velocidad);
             }

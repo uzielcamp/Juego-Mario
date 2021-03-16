@@ -124,8 +124,11 @@
   <data name="Bloque oro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bloque oro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bloque especial" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bloque especial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Imagen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagen1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minifigura-lego-stormtrooper-star-wars" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minifigura-lego-stormtrooper-star-wars.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Bloque piedra" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bloque piedra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,7 +139,10 @@
   <data name="Bouser" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bouser.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Imagen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Imagen1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bloque especial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bloque especial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gratis-png-lego-star-wars-la-fuerza-despierta-stormtrooper-lego-minifigure-stormtrooper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gratis-png-lego-star-wars-la-fuerza-despierta-stormtrooper-lego-minifigure-stormtrooper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

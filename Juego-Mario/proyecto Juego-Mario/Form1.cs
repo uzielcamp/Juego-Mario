@@ -33,69 +33,66 @@ namespace proyecto_Juego_Mario
         {
             Mario.Mover(e.KeyChar);
             pctPlayer.Location = Mario.Pocition;
-            if(pctPlayer.Bounds.IntersectsWith(pctVillano.Bounds))
-            {
-                MessageBox.Show("Muerete prro");            
-            }
-            if (pctPlayer.Bounds.IntersectsWith(pctBloque1.Bounds)) 
-            {
-                MessageBox.Show("Muerete prro");
-            }
-            if(pctPlayer.Bounds.IntersectsWith(pctBloque2.Bounds))
-            {
-                MessageBox.Show("Muerete prro");
-            }
-        if(pctPlayer.Bounds.IntersectsWith(pctBloque3.Bounds))
-            {
-                MessageBox.Show("Muerete prro");
-            }
-        if(pctPlayer.Bounds.IntersectsWith(pctBloque4.Bounds))
-            {
-                MessageBox.Show("Muerete prro");
-            }
-        if(pctPlayer.Bounds.IntersectsWith(pctBloque5.Bounds))
-            {
-                MessageBox.Show("Muerete prro");
-            }
-        if(pctPlayer.Bounds.IntersectsWith(pctBloque6.Bounds))
-            {
-                MessageBox.Show("Muerete prro");
-            }
-        if(pctPlayer.Bounds.IntersectsWith(pctBloque7.Bounds))
-            {
-                MessageBox.Show("Muerete prro");
-            }
-        if(pctPlayer.Bounds.IntersectsWith(pctBloqueOro.Bounds))
-            {
-                MessageBox.Show("Muerete prro");
-            }
-        if(pctPlayer.Bounds.IntersectsWith(pctBloqueOro2.Bounds))
-            {
-                MessageBox.Show("Muerete prro");
-            }
-        if(pctPlayer.Bounds.IntersectsWith(pctBloqueOro4.Bounds))
-            {
-                MessageBox.Show("Muerete prro");
-            }
-        if(pctPlayer.Bounds.IntersectsWith(pctBloqueOro5.Bounds))
-            {
-                MessageBox.Show("Muerete perro");
-            }
-        if(pctPlayer.Bounds.IntersectsWith(pctBloqueOro6.Bounds))
-            {
-                MessageBox.Show("Muerete prro");
-            }
+              if(pctPlayer.Bounds.IntersectsWith(pctVillano.Bounds))
+              {
+                MessageBox.Show("Feel the power of the dark side");            
+              }
+              if (pctPlayer.Bounds.IntersectsWith(pctBloque1.Bounds)) 
+              {
+                MessageBox.Show("-5");
+              }
+              if(pctPlayer.Bounds.IntersectsWith(pctBloque2.Bounds))
+              {
+                MessageBox.Show("-5");
+              }
+              if(pctPlayer.Bounds.IntersectsWith(pctBloque3.Bounds))
+              {
+                MessageBox.Show("-5");
+              }
+              if(pctPlayer.Bounds.IntersectsWith(pctBloque4.Bounds))
+              {
+                MessageBox.Show("-5");
+              }
+              if(pctPlayer.Bounds.IntersectsWith(pctBloque5.Bounds))
+              {
+                MessageBox.Show("-5");
+              }
+              if(pctPlayer.Bounds.IntersectsWith(pctBloque6.Bounds))
+              {
+                MessageBox.Show("-5");
+              }
+              if(pctPlayer.Bounds.IntersectsWith(pctBloque7.Bounds))
+              {
+                MessageBox.Show("-5");
+              }
+              if(pctPlayer.Bounds.IntersectsWith(pctBloqueOro.Bounds))
+              {
+                MessageBox.Show("-10");
+              }
+              if(pctPlayer.Bounds.IntersectsWith(pctBloqueOro2.Bounds))
+              {
+                MessageBox.Show("-10");
+              }
+              if(pctPlayer.Bounds.IntersectsWith(pctBloqueOro4.Bounds))
+              {
+                MessageBox.Show("-10");
+              }
+              if(pctPlayer.Bounds.IntersectsWith(pctBloqueOro5.Bounds))
+              {
+                MessageBox.Show("-10");
+              }
+              if(pctPlayer.Bounds.IntersectsWith(pctBloqueOro6.Bounds))
+              {
+                MessageBox.Show("-10");
+              }
+              if(pctPlayer.Bounds.IntersectsWith(pctEspecial.Bounds))
+              {
+                MessageBox.Show("+50");
+              }
+              //if(pctPlayer.Bounds.IntersectsWith(pctEnemigoestatico.Bounds))
+              {
+                //MessageBox.Show("PEW,PEW,PEW");
+              }
         }
-
-        private void pctPlayer_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pctVillano_Click(object sender, EventArgs e)
-        {
-
-        }
-       
     }
 }
